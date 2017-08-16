@@ -1,6 +1,6 @@
-import fresh_tomatoes
 import media
-"""List of movies"""
+import fresh_tomatoes
+#List of movies
 mickey_mouse = media.Movie(
     "Mickeymouse","Story of mickey mouse","https://upload.wikimedia.org/wikipedia/en/e/ed/Mickey_Mouse_film_poster.png","https://www.youtube.com/watch?v=R86XY9lmtMs")
 
@@ -21,7 +21,7 @@ jurassic_world = media.Movie(
 
 art = media.Movie(
     "Box_art","Art using python program","boxart image","images.PNG")
-
+# The instances are added to the list
 movies = [mickey_mouse,jumanji,angry_birds,spykids,finding_nemo,jurassic_world,art]
 fresh_tomatoes.open_movies_page(movies)
 
